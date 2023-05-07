@@ -50,3 +50,16 @@ window.addEventListener('click', function(event) {
     dropdownContent.classList.remove('show');
   }
 });
+function showInputs(theme) {
+  // Hide all input fields
+  var inputs = document.getElementsByClassName("input");
+  for (var i = 0; i < inputs.length; i++) {
+    inputs[i].classList.remove("visible");
+  }
+
+  // Show input fields for selected theme
+  var themeInputs = document.getElementById(theme + "-inputs");
+  if (themeInputs) {
+    themeInputs.classList.add("visible");
+  }
+}

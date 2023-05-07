@@ -56,7 +56,31 @@ padding: 8px 16px 8px 16px;
    position:relative; bottom:120px; padding-left:20px;
 }
   
-  .dropbtn {
+#payment{
+  padding-left:400px;
+  position:relative; bottom:300px;
+}
+#card{
+  position:relative; left:20px;
+}
+#smth{
+  position:relative; left:370px;
+}
+#border{
+  border:1px solid grey;
+  padding: 20px;
+ 
+}
+#borderf{
+  border:1px solid grey;
+  
+  
+}
+
+
+
+
+.dropbtn {
     background-color: #4CAF50;
     color: white;
     padding: 10px;
@@ -132,21 +156,78 @@ padding: 8px 16px 8px 16px;
 }
 #imagepruplethird{
     position:relative;  bottom:10px;
-    padding-left:20px; 
+    padding-left:30px; 
 }
 #Hide{
   position:relative; bottom:150px; left:1300px;
 }
+.input {
+  display: none;
+  margin: 5px;
+  
+  
+   
+}
+input.rounded {
+
+  border: 1px solid #ccc;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+ 
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  
+ 
+  font-size: 20px;
+  
+  padding: 4px 7px;
+
+  outline: 0;
+
+  -webkit-appearance: none;
+  
+}
+
+input.rounded:focus {
+
+  border-color: #339933;
+  
+}
 
 
+.visible {
+  display: block;
+}
+
+input:focus {
+  border-color: #4d90fe;
+  box-shadow: 0 0 5px #4d90fe;
+}
+
+input:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  
+}
 
 
+button[type="submit"]:hover {
+  background-color: #4d90fe;
+  color: #fff;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+#BigBorder{
+  position:relative; bottom:55px; right:20px;
+}
 
 
-
-/* Dropdown Button */
 .dropbtn {
-    background-color: #9c27c6;
+    background-color: #52057B;
+    ;
     color: white;
   
     font-size: 20px;
@@ -157,19 +238,169 @@ padding: 8px 16px 8px 16px;
     height: 50px;
    
   }
+#choice{
+  position:relative; bottom:180px; 
+  padding-left:30px
+}
+#one{
+padding-left:50px;
+position:relative; bottom:150px;
+}
+#two{
+padding-left:80px;
+position:relative; bottom:150px;
+}
+#three{
+  padding-left:90px;
+  position:relative; bottom:150px;
+}
+#four{
+  padding-left:110px;
+  position:relative; bottom:150px
+}
+#five{
+  padding-left:100px;
+  position:relative; bottom:150px;
+}
+#six{
+  padding-left:100px;
+  position:relative; bottom:150px
+}
+#seven{
+  padding-left:110px;
+  position:relative; bottom:150px;
+}
+#eight{
+  padding-left:90px;
+  position:relative; bottom:150px;
+}
+#nine{
+  padding-left:100px;
+  position:relative; bottom:150px
+}
+#ten{
+  padding-left:120px;
+  position:relative; bottom:150px
+}
+#eleven{
+  padding-left:120px;
+  position:relative; bottom:150px;
+}
+#a{
+
+position:relative; bottom:150px;
+padding-left: 35px;
+}
+#b{
+  position: relative; bottom:150px;
+  padding-left:25px;
+}
+#c{
+  position:relative; bottom:150px; right:5px;
+}
+#d{
+  position:relative; bottom:150px; left:20px; 
+}
+#e{
+  position:relative; bottom:150px; left:60px;
+}
+#f{
+  position:relative; bottom:150px; left:70px;
+}
+#g{
+  position:relative; bottom:150px; left: 100px;
+}
+#h{
+  position:relative; bottom:150px; left:135px;
+}
+#i{
+  position:relative; bottom:150px; left:180px;
+}
+#j{
+  position:relative; bottom:150px; left:245px;
+}
+#k{
+  position:relative; bottom:150px; left:300px;
+}
+#flash{
+  position:relative; bottom:100px; 
+  padding-left:20px;
+}
+#buttonwhite{
+  position:relative; top:70px; left:900px
+}
+.sale-text {
+  background-color:#FF00001A;
+  color: #FF0000;
+  float:right;
+  padding-left:px;
+  border-radius: 5px;
+  font-weight: bold;
+ letter-spacing: 2px;
+ padding: 2px 2px 2px;
+ position:relative; bottom:60px; right:10px;
+}
+#ora{
+ position:relative; bottom:1735px;
+ margin-left:1140px
+
+}
+#car{
+margin-left:860px;
+position:relative; bottom:1300px;
+ 
+}
+#bottle{
+  margin-left:20px;
+
+}
+.progress{
+  width: 180px;
+  position:relative; left:10px;
+}
+#sold{
+float:right;
+position:relative; left:45px;
+bottom:20px;
   
-  /* Dropdown button on hover & focus */
+ 
+  
+}
+#headphones{
+ position:relative; bottom:434px;
+ margin-left: 300px;
+}
+#otherbottle{
+  position:relative; bottom:867px;
+  margin-left:580px; 
+}
+    
+  
+  #purchase{
+  
+  
+   color:white;
+   width: 95px;
+   padding-top:15px;
+   padding-bottom:10px;
+   padding-left:20px;
+}
+#purch{
+  background-color:  #52057B;
+  ;
+  color:white
+}
+
   .dropbtn:hover, .dropbtn:focus {
     background-color: #9c27c6;
   }
   
-  /* The container <div> - needed to position the dropdown content */
+
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
-  /* Dropdown Content (Hidden by Default) */
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -179,7 +410,7 @@ padding: 8px 16px 8px 16px;
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -187,10 +418,10 @@ padding: 8px 16px 8px 16px;
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
+
   .dropdown-content a:hover {background-color: #ddd;}
   
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
   .show {display:block;}
 
   
