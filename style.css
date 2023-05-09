@@ -357,6 +357,7 @@ position:relative; bottom:1300px;
 .progress{
   width: 180px;
   position:relative; left:10px;
+  
 }
 #sold{
 float:right;
@@ -374,7 +375,199 @@ bottom:20px;
   position:relative; bottom:867px;
   margin-left:580px; 
 }
+#features{
+  color: #52057B;
+  background-color: #52057B1A;
+  width:120px;
+  text-align: center;
+  
+  position:relative; left:320px; bottom: 1635px;
+}
+#pop{
+  position:relative; bottom:1600px; left:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 24px;
+  color:white;
+  
+  width: 263px;
+  height: 111px;
+  
+  background: linear-gradient(90deg, #BF5AE0 0%, #A811DA 100%);
+  border-radius: 8px;
+}
+#wanted{
+  position:relative; bottom:1711px; left:310px;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 24px;
+  
+  width: 263px;
+  height: 111px;
+  
+  background: linear-gradient(90deg, #06BEB6 0%, #48B1BF 100%);
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#shop{
+  position:relative; bottom:2045px; left:1190px;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 24px;
+color:white;
+gap: 24px;
+
+width: 263px;
+height: 111px;
+
+background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+#Best{
+  position:relative; bottom:1935px; left:910px;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+color:white;
+padding: 16px 24px;
+gap: 24px;
+
+width: 251px;
+height: 111px;
+
+background: linear-gradient(90deg, #FE8C00 0%, #F83600 100%);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+}
+#p{
+  padding-left:20px;
+  position:relative; bottom:75px;
+}
+#clockori{
+  position:relative; bottom:2000px; left:40px;
+
+}
+#clock1{
+  position:relative; bottom:260px;
+  margin-left: 350px;;
+}
+#clock2{
+  position:relative; bottom:517px;
+  margin-left: 700px;;
+}
+#clock3{
+  position: relative; bottom:775px;
+  margin-left: 1050px;;
+}
+#clock{
+  
+box-sizing: border-box;
+text-align: left;
+position:relative; bottom:1900px; left:20px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 24px;
+
+width: 329px;
+height: 188px;
+
+
+background: #FFFFFF;
+
+border: 1px solid #E2E2E2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#sometexts{
+  position:relative; bottom:105px; left:50PX;
+}
+#number{
+  position:relative; bottom:115px; left:140px;
+
+}
+#topf{
+  position:relative; bottom:1823px; left:600px;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 24px;
+gap: 24px;
+
+width: 263px;
+color:white;
+height: 111px;
+
+background: linear-gradient(90deg, #F85032 0%, #E73827 100%);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+#Icon{
+  /* Icon */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 11px;
+gap: 8px;
+
+width: 37px;
+height: 38px;
+
+background: rgba(255, 255, 255, 0.25);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
     
+#now{
+position:relative; bottom:1600px;
+margin-left:20px;
+}
   
   #purchase{
   
@@ -424,4 +617,54 @@ bottom:20px;
 
   .show {display:block;}
 
+#today{
+  position: relative; bottom:2690px; 
+  margin-left:20px;
+}
+#compandlapt{
+  color: #52057B;
+  background-color: #52057B1A;
+  width:120px;
+  text-align: center;
+  width:180px;
   
+}
+#shoes{
+  position:relative; bottom:820px; left:540px;
+}
+#otherlaptop{
+  bottom:2660px;
+  left:20px;
+}
+.review{
+  position:relative; bottom:50px; left:220px;
+ 
+}
+
+#selphone{
+  position:relative; bottom:1188px; left:810px;
+}
+#keyboard{
+  position:relative; bottom:455px; left:270px;
+}
+#but{
+  background-color: #E6E8EC;
+}
+#locations{
+  position:relative; top:68px; right:120px;
+}
+#star{
+  position:relative; top:32px; left:80px;
+}
+#locations2{
+  position:relative; right:210px; top:68px;
+}
+#star2{
+  position:relative; right: 10px; top:32px;
+}
+#location{
+  position:relative; bottom:40px; left:35px;
+}
+#sell{
+  position:relative; bottom:80px; left:180px;
+}
