@@ -629,42 +629,267 @@ margin-left:20px;
   width:180px;
   
 }
-#shoes{
-  position:relative; bottom:820px; left:540px;
-}
-#otherlaptop{
-  bottom:2660px;
-  left:20px;
-}
-.review{
-  position:relative; bottom:50px; left:220px;
- 
-}
-
-#selphone{
-  position:relative; bottom:1188px; left:810px;
-}
-#keyboard{
-  position:relative; bottom:455px; left:270px;
-}
 #but{
   background-color: #E6E8EC;
 }
-#locations{
-  position:relative; top:68px; right:120px;
-}
-#star{
-  position:relative; top:32px; left:80px;
-}
-#locations2{
-  position:relative; right:210px; top:68px;
-}
-#star2{
-  position:relative; right: 10px; top:32px;
-}
-#location{
-  position:relative; bottom:40px; left:35px;
+.review{
+  margin-left:220px;
+  position:relative; bottom:50px;
 }
 #sell{
-  position:relative; bottom:80px; left:180px;
+  margin-left:180px; 
+  position:relative; bottom:85px;
+}
+#location{
+  margin-left:20px;
+  position:relative; bottom:45px; left:20px;
+}
+#star{
+ position:relative; top:32px; left:80px;
+}
+#star2{
+  position:relative; top:32px; right:10px;
+}
+#star3{
+  position:relative; top:32px; left:23px;
+}
+#star4{
+  position:relative; top:32px; left:60px;
+}
+#star5{
+  position:relative; top:32px; left:80px;
+}
+#star6{
+  position:relative; top:32px; left:115px;
+}
+#star7{
+  position:relative; top:32px; left:25px;
+}
+#star8{
+  position:relative; top:32px; left:40px;
+}
+#star9{
+  position:relative; top:32px; left:100px;
+}
+#star10{
+  position:relative; top:32px; left:90px;
+}
+
+
+
+#locations{
+  position:relative; top: 63px; right:115px;
+}
+#locations2{
+  position:relative; top:63px; right:205px;
+}
+#locations3{
+  position:relative; top:63px;right:170px;
+}
+#locations4{
+  position:relative; top:63px;right:130px;
+}
+#locations5{
+  position:relative; top:63px;right:110px;
+}
+#locations6{
+  position:relative; top:63px; right:80px;
+}
+#locations7{
+  position:relative; top:63px; right:170px;
+}
+#locations8{
+  position:relative; top:63px; right:160px;
+}
+#locations9{
+  position:relative; top:63px; right:100px;
+}
+#locations10{
+  position:relative; top:64px; right:105px;
+}
+
+#clothing{
+  margin-left:1140px; bottom:1555px; 
+}
+#shoes{
+  margin-left:560px; bottom:820px; 
+}
+#somelaptop{
+  margin-left:20px; bottom:2600px;
+}
+#keyboard{
+  margin-left:280px; bottom:455px;
+}
+#selphone{
+  margin-left:850px; bottom:1188px;
+}
+#ball{
+   bottom:1500px;
+}
+#heels{
+  bottom:455px; 
+  margin-left:280px;
+}
+#jewel{
+  bottom:820px;
+  margin-left:560px;
+}
+#console{
+  bottom:1188px; 
+  margin-left:850px;
+}
+#chair{
+  bottom:1550px;
+  margin-left:1150px;
+}
+#banner{
+  position:relative; bottom:2100px;
+  margin-left:50px;
+}
+#card1{
+  box-sizing: border-box;
+  position:relative; bottom:1900px; left:20px;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 24px;
+gap: 4px;
+
+width: 259px;
+height: 400px;
+
+/* Style */
+
+background: #FFFFFF;
+/* Outline */
+
+border: 1px solid #E2E2E2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#card2{
+  box-sizing: border-box;
+  position:relative; bottom:2300px; left:380px;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 24px;
+gap: 4px;
+
+width: 259px;
+height: 400px;
+
+/* Style */
+
+background: #FFFFFF;
+/* Outline */
+
+border: 1px solid #E2E2E2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#card3{
+  box-sizing: border-box;
+  position:relative; bottom:2700px; left: 750px;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 24px;
+gap: 4px;
+
+width: 259px;
+height: 400px;
+
+/* Style */
+
+background: #FFFFFF;
+/* Outline */
+
+border: 1px solid #E2E2E2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#card4{
+  box-sizing: border-box;
+  position:relative; bottom:3100px; left:1120px;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 24px;
+gap: 4px;
+
+width: 259px;
+height: 400px;
+
+/* Style */
+
+background: #FFFFFF;
+/* Outline */
+
+border: 1px solid #E2E2E2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#p1{
+  position:relative; right:80px; top:60px;
+}
+#p2{
+  position:relative; top:18px; left:25px;
+}
+#p3{
+  position:relative; bottom:25px; left:145px;
+}
+#number1{
+  position:relative; bottom:40px; right:70px;
+}
+#number2{
+  position:relative; bottom:83px; left:35px;
+}
+#number3{
+  position:relative; bottom:125px; left:140px;
+}
+#verification{
+  position:relative; top:40px; left:5px;
+}
+#super{
+  position:relative; top:30px;
+}
+#channel{
+  position:relative; bottom:380px; left:20px;
+}
+#mom{
+  position:relative; bottom:2000px; 
+  margin-left:20px;
 }
