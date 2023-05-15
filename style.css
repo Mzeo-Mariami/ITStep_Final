@@ -893,3 +893,40 @@ flex-grow: 0;
   position:relative; bottom:2000px; 
   margin-left:20px;
 }
+#starone{
+  position:relative; top:32px; right:10px;
+}
+#startwo{
+  position:relative; top:30px; left:43px;
+}
+#starthree{
+  position:relative; top:30px; left:20px;
+}
+#starfour{
+  position:relative; top:30px; left:100px;
+}
+#starfive{
+  position:relative; top:30px; left:100px;
+}
+#locationsone{
+  position:relative; top:63px; right:200px;
+}
+#locationstwo{
+  position:relative; top:63px; right:150px;
+}
+#locationsthree{
+  position:relative; top:63px; right:180px;
+}
+#locationsfour{
+  position:relative; top:63px; right:100px;
+}
+#locationsfive{
+  position:relative; top:63px; right:100px;
+}
+#secondpart{
+position:relative; bottom:400px;
+}
+#recommendation{
+  position:relative; bottom:2650px;
+  margin-left:20px;
+}
