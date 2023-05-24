@@ -930,3 +930,16 @@ position:relative; bottom:400px;
   position:relative; bottom:2650px;
   margin-left:20px;
 }
+#click{
+  background-color: #9c27c6;
+  color:white
+}
+#brand{
+  padding-left:20px;
+}
+#pay{
+  width:1400px;
+}
+#easy{
+  width:600px;
+}
