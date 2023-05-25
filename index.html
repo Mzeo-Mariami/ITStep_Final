@@ -29,10 +29,12 @@
         </div>
     </div>
     <img src="Vector.png" alt="" id="png1">
-    <div class="mb-3" id="Searchbar">
-        <label for="exampleFormControlInput1" class="form-label"></label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search in SlabShop">
-      </div>
+   
+      <div class="mb-3" id="Searchbar">
+       <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search in SlabShop" onkeyup="showSuggestions(event)">
+          <div id="autocompleteDropdown" class="autocomplete-items"></div>
+       </div>
       <img src="Vector (1).png" alt="" id="png2">
 
       
@@ -123,6 +125,7 @@
     </div>
     
     </div>
+    
     <div id="borderf" class="rounded">
     <div id="tickets-inputs" class="input">
       <label class="btn">Ticket Type:</label>
@@ -193,7 +196,7 @@
   <button class="two-word-btn btn" id="a">Man<br>Fashion</button>
   <button class="two-word-btn btn"  id="b">Gadget<br>Electronic</button>
   <button class="one-word-btn btn" id="c">Voucher Game</button>
-  <button class="one-word-btn btn" id="d">Property</button>
+  <a href="Property.html"><button class="one-word-btn btn" id="d">Property</button></a>
   <button class="two-word-btn btn" id="e">Kids<br>Fashion</button>
   <button class="two-word-btn btn" id="f">Computer and<br>Laptop</button>
   <button class="two-word-btn btn" id="g">Woman<br>Fashion</button>
@@ -360,7 +363,7 @@
 
   <div class="card" style="width: 259px;
   height: 367px;" id="somelaptop">
-    <button id="but" class="btn"><img src="Image (16).png" class="card-img-top" alt="..."></button>
+    <a href="laptop.html"><button id="but" class="btn"><img src="Image (16).png" class="card-img-top" alt="..."></button></a>
     <div class="card-body">
       <p class="rounded "id="compandlapt">Computer and Laptop</p>
       <h6 class="card-title"> Neve Strix Pro L123 (2021) - TP399K 1TB <img src="Frame.png" alt="" id="star">
@@ -375,7 +378,7 @@
     
     <div class="card" style="width: 259px;
     height: 367px;" id="keyboard">
-      <button id="but" class="btn"><img src="Image (17).png" class="card-img-top" alt="..."></button>
+     <a href="keyboard.html"> <button id="but" class="btn"><img src="Image (17).png" class="card-img-top" alt=""></button></a>
       <div class="card-body">
         <p class="rounded "id="compandlapt">Computer and Laptop</p>
         <h6 class="card-title"> Dark King M345 Mechanical Keyboard - Free 31 Keys<img src="Frame.png" alt="" id="star2">
@@ -392,7 +395,7 @@
 
   <div class="card" style="width: 259px;
     height: 367px;" id="shoes">
-      <button id="but" class="btn"><img src="Image (18).png" class="card-img-top" alt="..."></button>
+     <a href="shoes.html"> <button id="but" class="btn"><img src="Image (18).png" class="card-img-top" alt="..."></button></a>
       <div class="card-body">
         <p class="rounded "id="compandlapt">Fashion Man</p>
         <h6 class="card-title"> Reader Touring Coboy Brc Black Leather Boots<img src="Frame.png" alt="" id="star3">
@@ -408,7 +411,7 @@
 
   <div class="card" style="width: 259px;
   height: 367px;" id="selphone">
-    <button id="but" class="btn"><img src="Image (19).png" class="card-img-top" alt="..."></button>
+   <a href="shoes.html"> <button id="but" class="btn"><img src="Image (19).png" class="card-img-top" alt="..."></button></a>
     <div class="card-body">
       <p class="rounded "id="compandlapt">Gudget Electronic</p>
       <h6 class="card-title">Meta Galaxy X oliw10 5G sinatra 256 GB<img src="Frame.png" alt="" id="star4">
@@ -425,7 +428,7 @@
 
 <div class="card" style="width: 259px;
 height: 367px;" id="clothing">
-  <button id="but" class="btn"><img src="Image (20).png" class="card-img-top" alt="..."></button>
+ <a href="shirt.html"><button id="but" class="btn"><img src="Image (20).png" class="card-img-top" alt="..."></button></a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Fashion</p>
     <h6 class="card-title">Overflow.id - Basic plain black t-shirt<img src="Frame.png" alt="" id="star5">
@@ -441,7 +444,7 @@ height: 367px;" id="clothing">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="ball">
-  <button id="but" class="btn"><img src="Image (21).png" class="card-img-top" alt="..."></button>
+ <a href="ball.html"></a> <button id="but" class="btn"><img src="Image (21).png" class="card-img-top" alt="..."></button></a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Sports</p>
     <h6 class="card-title">Leather bag packed with football<img src="Frame.png" alt="" id="star6">
@@ -456,7 +459,7 @@ height: 367px;" id="ball">
 
   <div class="card" style="width: 259px;
 height: 367px;" id="heels">
-  <button id="but" class="btn"><img src="Image (22).png" class="card-img-top" alt="..."></button>
+  <a href="heels.html"><button id="but" class="btn"><img src="Image (22).png" class="card-img-top" alt="..."></button></a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Woman Fashion</p>
     <h6 class="card-title">Zineta Slip On Brown Sandals for Women<img src="Frame.png" alt="" id="star7">
@@ -472,7 +475,7 @@ height: 367px;" id="heels">
   
 <div class="card" style="width: 259px;
 height: 367px;" id="jewel">
-  <button id="but" class="btn"><img src="Image (23).png" class="card-img-top" alt="..."></button>
+ <a href="accessorie.html"> <button id="but" class="btn"><img src="Image (23).png" class="card-img-top" alt="..."></button></a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Accessories</p>
     <h6 class="card-title">Limited edition silver womens necklace<img src="Frame.png" alt="" id="star8">
@@ -489,7 +492,7 @@ height: 367px;" id="jewel">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="console">
-  <button id="but" class="btn"><img src="Image (24).png" class="card-img-top" alt="..."></button>
+ <a href="joystick.html"> <button id="but" class="btn"><img src="Image (24).png" class="card-img-top" alt="..."></button></a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Gaming</p>
     <h6 class="card-title">PLaystation Gamepad Stick Controller<img src="Frame.png" alt="" id="star9">
@@ -505,7 +508,7 @@ height: 367px;" id="console">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="chair">
-  <button id="but" class="btn"><img src="Image (25).png" class="card-img-top" alt="..."></button>
+ <a href="chair.html"><button id="but" class="btn"><img src="Image (25).png" class="card-img-top" alt="..."></button></a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Property</p>
     <h6 class="card-title">Premium foam minimalist black chair<img src="Frame.png" alt="" id="star10">
@@ -598,7 +601,7 @@ height: 367px;" id="chair">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="somelaptop">
-  <button id="but" class="btn"><img src="Image (35).png" class="card-img-top" alt="..."></button>
+  <a href="tablet.html">  <button id="but" class="btn"><img src="Image (35).png" class="card-img-top" alt="..."></button></a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Computer and Laptop</p>
     <h6 class="card-title"> Original Worl Premiere Super 5 Pro Tablet 8gb <img src="Frame.png" alt="" id="starone">
@@ -613,7 +616,7 @@ height: 367px;" id="somelaptop">
   
   <div class="card" style="width: 259px;
   height: 367px;" id="keyboard">
-    <button id="but" class="btn"><img src="Image (36).png" class="card-img-top" alt="..."></button>
+    <a href="chair2.html">  <button id="but" class="btn"><img src="Image (36).png" class="card-img-top" alt="..."></button></a>
     <div class="card-body">
       <p class="rounded "id="compandlapt">Property</p>
       <h6 class="card-title"> Wholcake GB38 - Living Room Chair with<img src="Frame.png" alt="" id="startwo">
@@ -630,7 +633,7 @@ height: 367px;" id="somelaptop">
 
 <div class="card" style="width: 259px;
   height: 367px;" id="shoes">
-    <button id="but" class="btn"><img src="Image (37).png" class="card-img-top" alt="..."></button>
+    <a href="laptop2.html">  <button id="but" class="btn"><img src="Image (37).png" class="card-img-top" alt="..."></button> </a>
     <div class="card-body">
       <p class="rounded "id="compandlapt">Computer and Laptop</p>
       <h6 class="card-title">  Oreno minibook DP821 FLC I7 10510 16gb 512ssd<img src="Frame.png" alt="" id="starthree">
@@ -646,7 +649,7 @@ height: 367px;" id="somelaptop">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="selphone">
-  <button id="but" class="btn"><img src="Image (38).png" class="card-img-top" alt="..."></button>
+  <a href="hat.html">  <button id="but" class="btn"><img src="Image (38).png" class="card-img-top" alt="..."></button> </a>
   <div class="card-body">
     <p class="rounded "id="compandlapt">Gudget Electronic</p>
     <h6 class="card-title">Black and yellow cap headwear<img src="Frame.png" alt="" id="starfour">
@@ -663,7 +666,7 @@ height: 367px;" id="selphone">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="clothing">
-<button id="but" class="btn"><img src="Image (39).png" class="card-img-top" alt="..."></button>
+ <a href="backpack.html"> <button id="but" class="btn"><img src="Image (39).png" class="card-img-top" alt="..."></button></a>
 <div class="card-body">
   <p class="rounded "id="compandlapt">Fashion</p>
   <h6 class="card-title">Domtrain Hiking Mountain Backpack<img src="Frame.png" alt="" id="starfive">
@@ -679,7 +682,7 @@ height: 367px;" id="clothing">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="ball">
-<button id="but" class="btn"><img src="Image (16).png" class="card-img-top" alt="..."></button>
+  <a href="laptop.html"><button id="but" class="btn"><img src="Image (16).png" class="card-img-top" alt="..."></button></a>
 <div class="card-body">
   <p class="rounded "id="compandlapt">Sports</p>
   <h6 class="card-title">Leather bag packed with football<img src="Frame.png" alt="" id="star6">
@@ -694,7 +697,7 @@ height: 367px;" id="ball">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="heels">
-<button id="but" class="btn"><img src="Image (17).png" class="card-img-top" alt="..."></button>
+  <a href="keyboard.html"><button id="but" class="btn"><img src="Image (17).png" class="card-img-top" alt="..."></button> </a>
 <div class="card-body">
   <p class="rounded "id="compandlapt">Woman Fashion</p>
   <h6 class="card-title">Zineta Slip On Brown Sandals for Women<img src="Frame.png" alt="" id="star7">
@@ -710,7 +713,7 @@ height: 367px;" id="heels">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="jewel">
-<button id="but" class="btn"><img src="Image (18).png" class="card-img-top" alt="..."></button>
+ <a href="shoes.html"><button id="but" class="btn"><img src="Image (18).png" class="card-img-top" alt="..."></button> </a>
 <div class="card-body">
   <p class="rounded "id="compandlapt">Accessories</p>
   <h6 class="card-title">Limited edition silver womens necklace<img src="Frame.png" alt="" id="star8">
@@ -727,7 +730,7 @@ height: 367px;" id="jewel">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="console">
-<button id="but" class="btn"><img src="Image (19).png" class="card-img-top" alt="..."></button>
+ <a href="phone.html"><button id="but" class="btn"><img src="Image (19).png" class="card-img-top" alt="..."></button> </a>
 <div class="card-body">
   <p class="rounded "id="compandlapt">Gaming</p>
   <h6 class="card-title">PLaystation Gamepad Stick Controller<img src="Frame.png" alt="" id="star9">
@@ -743,7 +746,7 @@ height: 367px;" id="console">
 
 <div class="card" style="width: 259px;
 height: 367px;" id="chair">
-<button id="but" class="btn"><img src="Image (20).png" class="card-img-top" alt="..."></button>
+ <a href="shirt.html"><button id="but" class="btn"><img src="Image (20).png" class="card-img-top" alt="..."></button> </a>
 <div class="card-body">
   <p class="rounded "id="compandlapt">Property</p>
   <h6 class="card-title">Premium foam minimalist black chair<img src="Frame.png" alt="" id="star10">
@@ -757,19 +760,7 @@ height: 367px;" id="chair">
 <p class="text-secondary" id="sell">1210 sold</p>
 </div>
 </div>
-<h2 id="easy">Now it's easier to open your shop</h2>
-<p>With simple step by step and easy help instructions to follow</p>
-</div>
-<h2 id="brand">Payment Method</h2>
-<img src="picture(41).png" alt="" id="pay">
-<h2 id="footer1">SlabShop</h2>
-<p id="footer2">Aims to make it easier for every community in the world to carry out various buying and selling transactions online. Is one of the world's online buying and selling sites whose development is relatively fast. You can sell products online at the slabshop besides being able to enjoy the process of buying various products more quickly and effectively. You can sign up for the exclusive slabshop Seller community if you want to launch your own business.</p>
-<h2 id="footer3">Advantages of joining Slabshop</h2>
-<p id="footer4">Festive advertising In addition to offering all available product categories, Slabshop also regularly runs attractive promotions with prices you can access on the promo page. There are many options for promotions with different validity periods for various products, from smartphone promotions to promotions for inexpensive train tickets. The process is also very simple; all you have to do is enter the current coupon code or promotional code for the item you want to buy. festive advertising In addition to offering all available product categories, Slabshop also regularly runs attractive promotions with prices you can access on the promo page. There are many options for promotions with different validity periods for various products, from smartphone promotions to promotions for inexpensive train tickets. The process is also very simple, Readmore</p>
-</div>
 
-
-</div>
 </body>
 <script src="main.js"></script>
 </html>

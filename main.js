@@ -1,3 +1,48 @@
+var suggestions = [
+  { label: 'laptop', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/laptop.html' },
+  { label: 'keyboard', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/keyboard.html' },
+  { label: 'shoes', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/shoes.html' },
+  { label: 'phone', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/phone.html' },
+  { label: 'joystick', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/joystick.html' },
+  { label: 'other kind of laptop', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/laptop2.html' },
+  { label: 'tablet', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/tablet.html' },
+  { label: 'jewel', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/accessorie.html' },
+  { label: 'backpack', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/backpack.html' },
+  { label: 'ball', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/ball.html' },
+  { label: 'chair', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/chair.html' },
+  { label: 'chair2', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/chair2.html' },
+  { label: 'hat', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/hat.html' },
+  { label: 'heels', link: 'file:///C:/Users/User/OneDrive/სამუშაო%20დაფა/ITStep_Final/ITStep_Final/heels.html' },
+  
+  // Add more suggestions as needed
+];
+
+function showSuggestions(event) {
+  var input = event.target;
+  var value = input.value.toLowerCase();
+  var dropdown = document.getElementById('autocompleteDropdown');
+  dropdown.innerHTML = '';
+
+  if (!value) {
+    return;
+  }
+
+  var filteredSuggestions = suggestions.filter(function(suggestion) {
+    return suggestion.label.toLowerCase().startsWith(value);
+  });
+
+  filteredSuggestions.forEach(function(suggestion) {
+    var item = document.createElement('div');
+    item.classList.add('autocomplete-item');
+    item.textContent = suggestion.label;
+    item.addEventListener('click', function() {
+      window.location.href = suggestion.link;
+    });
+    dropdown.appendChild(item);
+  });
+}
+
+
 function showDropdown() {
     document.getElementById("dropdown-options").classList.toggle("show");
   }
@@ -98,3 +143,55 @@ var noti = document.querySelector('h1');
 			}
 		})
 	}
+  // Get references to the search bar and suggestions container
+const searchBar = document.getElementById('search-bar');
+const suggestionsContainer = document.getElementById('suggestions-container');
+
+// Add input event listener to the search bar
+searchBar.addEventListener('input', handleInput);
+
+// Handle input event
+function handleInput() {
+  const userInput = searchBar.value;
+  
+  // Clear previous suggestions
+  suggestionsContainer.innerHTML = '';
+  
+  // Fetch or generate suggestions based on user input
+  const suggestions = getSuggestions(userInput);
+  
+  // Display the suggestions
+  suggestions.forEach((suggestion) => {
+    const suggestionElement = document.createElement('div');
+    suggestionElement.textContent = suggestion;
+    
+    // Add click event listener to each suggestion
+    suggestionElement.addEventListener('click', () => {
+      // Redirect or perform an action based on the clicked suggestion
+      // Example: Redirect to a product detail page
+      window.location.href = '/product-detail?name=' + encodeURIComponent(suggestion);
+    });
+    
+    suggestionsContainer.appendChild(suggestionElement);
+  });
+}
+
+// Function to fetch or generate suggestions based on user input
+function getSuggestions(input) {
+  // Implement your logic to fetch or generate suggestions based on the input
+  // This can involve an API request, searching a database, or using a predefined list
+  // For simplicity, let's use the provided product names as suggestions
+  const productNames = [
+    'Neve Strix Pro L123 (2021) - TP399K 1TB',
+    'Dark King M346 Mechanical Keyboard - Free 31 Keys',
+    'Reader Touring Coboy Brc Black Leather Boots',
+    'Meta Galaxy X oliw10 5G sintra 256 GB'
+  ];
+  
+  // Filter the product names based on the input
+  const filteredSuggestions = productNames.filter((name) =>
+    name.toLowerCase().startsWith(input.toLowerCase())
+  );
+  
+  return filteredSuggestions;
+}
