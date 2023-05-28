@@ -242,85 +242,11 @@ button[type="submit"]:hover {
   position:relative; bottom:180px; 
   padding-left:30px
 }
-#one{
-padding-left:50px;
-position:relative; bottom:150px;
-}
-#two{
-padding-left:80px;
-position:relative; bottom:150px;
-}
-#three{
-  padding-left:90px;
-  position:relative; bottom:150px;
-}
-#four{
-  padding-left:110px;
-  position:relative; bottom:150px
-}
-#five{
-  padding-left:100px;
-  position:relative; bottom:150px;
-}
-#six{
-  padding-left:100px;
-  position:relative; bottom:150px
-}
-#seven{
+.icons{
+  display: flex;
+  gap:99px;
   padding-left:110px;
   position:relative; bottom:150px;
-}
-#eight{
-  padding-left:90px;
-  position:relative; bottom:150px;
-}
-#nine{
-  padding-left:100px;
-  position:relative; bottom:150px
-}
-#ten{
-  padding-left:120px;
-  position:relative; bottom:150px
-}
-#eleven{
-  padding-left:120px;
-  position:relative; bottom:150px;
-}
-#a{
-
-position:relative; bottom:150px;
-padding-left: 35px;
-}
-#b{
-  position: relative; bottom:150px;
-  padding-left:25px;
-}
-#c{
-  position:relative; bottom:150px; right:5px;
-}
-#d{
-  position:relative; bottom:150px; left:20px; 
-}
-#e{
-  position:relative; bottom:150px; left:60px;
-}
-#f{
-  position:relative; bottom:150px; left:70px;
-}
-#g{
-  position:relative; bottom:150px; left: 100px;
-}
-#h{
-  position:relative; bottom:150px; left:135px;
-}
-#i{
-  position:relative; bottom:150px; left:180px;
-}
-#j{
-  position:relative; bottom:150px; left:245px;
-}
-#k{
-  position:relative; bottom:150px; left:300px;
 }
 #flash{
   position:relative; bottom:100px; 
@@ -341,13 +267,13 @@ padding-left: 35px;
  position:relative; bottom:60px; right:10px;
 }
 #ora{
- position:relative; bottom:1735px;
+ position:relative; bottom:1630px;
  margin-left:1140px
 
 }
 #car{
 margin-left:860px;
-position:relative; bottom:1300px;
+position:relative; bottom:1220px;
  
 }
 #bottle{
@@ -367,12 +293,19 @@ bottom:20px;
  
   
 }
+#styletext{
+  display: flex;
+  gap:32px;
+  padding-left:75px;
+  position:relative; bottom:150px;
+  
+}
 #headphones{
- position:relative; bottom:434px;
+ position:relative; bottom:405px;
  margin-left: 300px;
 }
 #otherbottle{
-  position:relative; bottom:867px;
+  position:relative; bottom:813px;
   margin-left:580px; 
 }
 #features{
@@ -644,69 +577,7 @@ margin-left:20px;
   margin-left:20px;
   position:relative; bottom:45px; left:20px;
 }
-#star{
- position:relative; top:32px; left:80px;
-}
-#star2{
-  position:relative; top:32px; right:10px;
-}
-#star3{
-  position:relative; top:32px; left:23px;
-}
-#star4{
-  position:relative; top:32px; left:60px;
-}
-#star5{
-  position:relative; top:32px; left:80px;
-}
-#star6{
-  position:relative; top:32px; left:115px;
-}
-#star7{
-  position:relative; top:32px; left:25px;
-}
-#star8{
-  position:relative; top:32px; left:40px;
-}
-#star9{
-  position:relative; top:32px; left:100px;
-}
-#star10{
-  position:relative; top:32px; left:90px;
-}
 
-
-
-#locations{
-  position:relative; top: 63px; right:115px;
-}
-#locations2{
-  position:relative; top:63px; right:205px;
-}
-#locations3{
-  position:relative; top:63px;right:170px;
-}
-#locations4{
-  position:relative; top:63px;right:130px;
-}
-#locations5{
-  position:relative; top:63px;right:110px;
-}
-#locations6{
-  position:relative; top:63px; right:80px;
-}
-#locations7{
-  position:relative; top:63px; right:170px;
-}
-#locations8{
-  position:relative; top:63px; right:160px;
-}
-#locations9{
-  position:relative; top:63px; right:100px;
-}
-#locations10{
-  position:relative; top:64px; right:105px;
-}
 
 #clothing{
   margin-left:1140px; bottom:1555px; 
@@ -726,9 +597,21 @@ margin-left:20px;
 #ball{
    bottom:1500px;
 }
+.ball{
+  padding-bottom:12px;
+}
+.otherlaptop{
+  padding-bottom:12px;
+}
+.tablet{
+  padding-bottom:13px;
+}
 #heels{
   bottom:455px; 
   margin-left:280px;
+}
+.laptop{
+ padding-bottom:12px;
 }
 #jewel{
   bottom:820px;
@@ -862,6 +745,95 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+#locations, #locations2, #locations3, #locations4, #locations5, #locations6, #locations7, #locations8, 
+#locations9, #locations10{
+  position:relative; top:58px;
+}
+#star, #star2, #star3, #star4, #star5, #star6, #star7, #star8, #star9, #star10{
+  position:relative; top:30px;
+}
+#locationsone, #locationstwo, #locationsthree, #locationsfour, #locationsfive, #locationssix, #locationsseven{
+  position:relative; top:57px;
+}
+#starone,#startwo,#starthree,#starfour,#starfive,#starsix, #starseven{
+  position:relative; top:27px;
+}
+#locationsone, #locationsthree{
+  position:relative; right:145px;
+}
+#locationstwo, #locationsfour, #locationsfive{
+  position:relative; right:90px;
+}
+#starfour, #starfive{
+  position:relative; left:110px;
+}
+#starone, #starthree{
+  position:relative; left:45px;
+}
+#startwo{
+  position:relative; left:100px;
+}
+
+#star{
+position:relative; left:90px;
+}
+#star2{
+  position:relative; left:5px;
+}
+#star3{
+  position:relative; left:35px;
+}
+#star4{
+  position:relative; left:70px;
+}
+#star5{
+  position:relative; left:120px;
+}
+#star6{
+  position:relative; left:0px;
+}
+#star7{
+  position:relative; left:90px;
+}
+#star8{
+  position:relative; left:110px;
+}
+#star9{
+  position:relative; left:100px;
+}
+#star10{
+  position:relative; left:100px;
+}
+#locations{
+  position:relative; right:110px;
+}
+#locations2{
+  position:relative; right:190px;
+}
+#locations3{
+  position:relative; right:160px;
+}
+#locations4{
+  position:relative; right:120px;
+}
+#locations5{
+  position:relative; right:60px;
+}
+#locations6{
+  position:relative; right:80px;
+}
+#locations7{
+  position:relative; right:105px;
+}
+#locations8{
+  position:relative; right:80px;
+}
+#locations9{
+  position:relative; right:90px;
+}
+#locations10{
+  position:relative; right:100px;
+}
 #p1{
   position:relative; right:80px; top:60px;
 }
@@ -893,36 +865,7 @@ flex-grow: 0;
   position:relative; bottom:2000px; 
   margin-left:20px;
 }
-#starone{
-  position:relative; top:32px; right:10px;
-}
-#startwo{
-  position:relative; top:30px; left:43px;
-}
-#starthree{
-  position:relative; top:30px; left:20px;
-}
-#starfour{
-  position:relative; top:30px; left:100px;
-}
-#starfive{
-  position:relative; top:30px; left:100px;
-}
-#locationsone{
-  position:relative; top:63px; right:200px;
-}
-#locationstwo{
-  position:relative; top:63px; right:150px;
-}
-#locationsthree{
-  position:relative; top:63px; right:180px;
-}
-#locationsfour{
-  position:relative; top:63px; right:100px;
-}
-#locationsfive{
-  position:relative; top:63px; right:100px;
-}
+
 #secondpart{
 position:relative; bottom:400px;
 }
@@ -931,8 +874,18 @@ position:relative; bottom:400px;
   margin-left:20px;
 }
 #click{
-  background-color: #9c27c6;
-  color:white
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#click:hover{
+  background-color: #BF5AE0;
+  color: purple;
 }
 #brand{
   padding-left:20px;
@@ -976,4 +929,45 @@ position:relative; bottom:400px;
 
 .autocomplete-item:hover {
   background-color: #e9e9e9;
+}
+
+footer{
+  width:1400px;
+ position:relative; bottom:1300px;
+}
+.footer1{
+  padding-top: 20px;;
+  display: flex;
+  gap:110px;
+ 
+}
+.sponsor{
+  color: gray;
+  display: flex;
+  padding-top:20px;
+   gap:112px;
+
+}
+.images{
+  padding-top:40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer2{
+  padding-top:40px;
+}
+.footer2 > p{
+  padding-top:50px;
+}
+
+.footer3{
+  padding-top:40px;
+}
+
+.footer3 > p{
+  padding-top:40px;
+}
+#last{
+  padding-left:30px;
+  padding-top:100px;
 }
